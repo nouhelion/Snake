@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76805a02-5ccf-4bdb-8556-efb5e693ed66" name="Changes" comment="initial commit">
+    <list default="true" id="76805a02-5ccf-4bdb-8556-efb5e693ed66" name="Changes" comment="designing">
       <change afterPath="$PROJECT_DIR$/public/milk.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Food.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Snake.js" afterDir="false" />
@@ -36,7 +36,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/public/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Food.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Snake.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/index.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/App.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1yS2olCKJnJmKmtpSBgtUxmCkPc" />
@@ -83,6 +85,7 @@
       <updated>1632230858256</updated>
       <workItem from="1632230863450" duration="15725000" />
       <workItem from="1632487966160" duration="10941000" />
+      <workItem from="1632605864652" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1632231836446</created>
@@ -91,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632231836446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="designing">
+      <created>1632606575030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632606575030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +123,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="designing" />
+    <option name="LAST_COMMIT_MESSAGE" value="designing" />
   </component>
 </project>
