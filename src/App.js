@@ -131,7 +131,9 @@ class App extends Component {
 
     render() {
         return (
-            <div className="game_container">
+            <div className="game_container" style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/back.gif'})`
+            }}>
                 <div id="game-over-text" className="overlay-text">
                     GAME OVER
                 </div>

@@ -5,22 +5,19 @@
     width: 600px;
     height: 600px;
     border: 2px solid #000;
-    background-image: url("./public/milk.png");
 }
 .snake{
     position: absolute;
-    width: 2%;
-    height: 2%;
+    width: 1.5%;
+    height: 1.5%;
     background-color:#000;
-    border: 1px solid #fff;
     z-index: 2;
 }
 .snake_food{
     position: absolute;
     width: 2%;
     height: 2%;
-    background-color:red;
-    border: 1px solid #fff;
+    background-color: #de3c3c;
     z-index: 1;
 }
 .overlay-text {
