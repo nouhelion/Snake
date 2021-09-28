@@ -108,6 +108,7 @@ class App extends Component {
             this.increaseSpeed();
         }
     }
+
     enlargeSnake() {
         let newSnake = [...this.state.snakeDots];
         newSnake.unshift([])
@@ -125,8 +126,23 @@ class App extends Component {
     }
 
     onGameOver() {
-        //document.getElementById('game-over-text').classList.add('visible');
-        this.setState(initialState);
+        document.getElementById('game-over-text').classList.add('visible');
+        this.setState({
+            snakeDots: [
+                [0, 0],
+                [2, 0]
+            ]
+        })
+
+        let overlays = Array.from(document.getElementsByClassName('overlay-text'));
+        overlays.forEach(overlay => {
+            overlay.addEventListener('click', () => {
+                //when u click on start its no longer visible
+                overlay.classList.remove('visible');
+                this.setState(initialState);
+
+            });
+        });
     }
 
     render() {
@@ -135,7 +151,7 @@ class App extends Component {
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/back.gif'})`
             }}>
                 <div id="game-over-text" className="overlay-text">
-                    GAME OVER
+                    <span>GAME OVER</span>
                 </div>
                 <Snake snakeDots={this.state.snakeDots}/>
                 <Food dot={this.state.food}/>
