@@ -6,6 +6,6 @@ export default (props) =>{
         top: `${props.dot[1]}%`
     }
     return (
-       <div className="snake_food" style={style}></div>
+       <div className="snake_food" style={style} />
     )
 }
