@@ -9,7 +9,7 @@ export default (props) => {
                     top: `${dot[1]}%`
                 }
                 return (
-                    <div className="snake" key={i} style={style}></div>
+                    <div className="snake" key={i} style={style} />
                 )
             })}
         </div>
